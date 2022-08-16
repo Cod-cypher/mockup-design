@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Manrope", sans-serif;
+}
+
+header {
+  height: 100vh;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(pick.png);
+
+  background-repeat: no-repeat;
+  width: 100vw;
+  background-size: 100%;
+}
+
+nav {
+  height: 15vh;
+  width: 95vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.nav__left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+
+.nav__menu-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.nav__menu-items :last-child {
+  opacity: 0.7;
+}
+
+/* nav right  */
+
+.nav__right {
+  width: 25%;
+}
+
+.icon__search {
+  font-size: 1.7rem;
+}
+
+.search__icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+input {
+  background: transparent;
+  color: red;
+  border: none;
+  padding: 10px;
+}
+
+.btn {
+  background: #d4dd18;
+  height: 40px;
+  width: 151px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  cursor: pointer;
+}
+
+.help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  font-size: 2.2rem;
+  /* position: relative; */
+}
+
+svg {
+  position: absolute;
+  top: 42%;
+}
