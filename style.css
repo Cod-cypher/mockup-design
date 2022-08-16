@@ -31,13 +31,14 @@ nav {
 .logo {
   font-size: 2rem;
   cursor: pointer;
+  margin-right: 50px;
 }
 
 .nav__left {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 40%;
+  width: 45%;
 }
 
 .nav__menu-items {
