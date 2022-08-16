@@ -6,6 +6,7 @@
   box-sizing: border-box;
   color: white;
   font-family: "Manrope", sans-serif;
+  text-decoration: none;
 }
 
 header {
@@ -29,6 +30,7 @@ nav {
 
 .logo {
   font-size: 2rem;
+  cursor: pointer;
 }
 
 .nav__left {
@@ -42,9 +44,10 @@ nav {
   display: flex;
   justify-content: space-between;
   gap: 2rem;
+  font-size: 16px;
 }
 
-.nav__menu-items :last-child {
+.nav__menu-items :nth-child(5) {
   opacity: 0.7;
 }
 
@@ -62,10 +65,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
 }
+
 input {
   background: transparent;
-  color: red;
   border: none;
   padding: 10px;
 }
